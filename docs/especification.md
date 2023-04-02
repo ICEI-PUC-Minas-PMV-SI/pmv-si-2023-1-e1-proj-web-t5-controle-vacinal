@@ -1,42 +1,77 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+### Definição do Problema
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A população enfrenta obstáculos para se vacinar, como falta de informação e dificuldades de acesso aos postos de saúde. Esses desafios resultam em baixas taxas de vacinação e aumento da vulnerabilidade a surtos de doenças infecciosas.
+
+### Ideia de Solução
+
+Desenvolver uma ferramenta de vacinação domiciliar que forneça informações precisas e um serviço de vacinação em casa, contribuindo para a promoção da saúde pública e aumentando a taxa de vacinação.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### 1. Pessoa Idosa
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Nome**: Maria Oliveira<br/> 
+**Idade**: 70 anos<br/>
+**Profissão**: Aposentada<br/>
+**Estado Civil**: Viúva<br/>
+**Filhos**: 3 filhos adultos e independentes<br/>
+**Localização**: São Paulo, Brasil<br/>
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+**Descrição**: Maria é uma senhora de 70 anos que vive sozinha em um apartamento no centro da cidade. Ela é viúva e seus filhos moram em outras cidades. Maria tem dificuldades de locomoção devido à idade e a problemas de saúde, como artrite e osteoporose. Ela costuma passar o tempo lendo, assistindo à televisão e conversando com os vizinhos. Maria se preocupa com sua saúde e quer manter suas vacinas em dia, mas enfrenta dificuldades para ir até os postos de saúde.
+
+### 2. Pessoa com Mobilidade Reduzida
+
+**Nome**: João Silva<br/>
+**Idade**: 45 anos<br/>
+**Profissão**: Designer Gráfico Freelancer<br/>
+**Estado Civil**: Solteiro<br/>
+**Filhos**: Nenhum<br/>
+**Localização**: Rio de Janeiro, Brasil<br/>
+
+**Descrição**: João tem 45 anos e trabalha como designer gráfico freelancer. Ele sofreu um acidente de carro há 10 anos e, desde então, utiliza uma cadeira de rodas para se locomover. João mora sozinho em um apartamento adaptado e tem uma vida ativa e independente. Ele gosta de sair com amigos, ir ao cinema e praticar esportes adaptados. João enfrenta desafios para se deslocar até postos de saúde devido à falta de acessibilidade e transporte público adequado.
+
+### 3. Pessoa Imunocomprometida
+
+**Nome**: Luana Costa <br/>
+**Idade**: 30 anos <br/>
+**Profissão**: Professora de Ensino Fundamental <br/>
+**Estado Civil**: Casada <br/>
+**Filhos**: Nenhum <br/>
+**Localização**: Belo Horizonte, Brasil<br/>
+
+**Descrição**: Luana tem 30 anos e trabalha como professora de ensino fundamental. Ela foi diagnosticada com câncer de mama há um ano e está em tratamento de quimioterapia. Devido à sua condição, Luana está atualmente afastada do trabalho e precisa tomar cuidados especiais para evitar infecções. Ela mora com seu marido e, juntos, enfrentam os desafios do tratamento e das mudanças na rotina. Luana busca manter suas vacinas em dia, mas teme se expor a riscos indo até postos de saúde.
+
+### 4. Pais com Pouco Tempo Livre
+
+**Nomes**: Pedro e Ana Santos <br/>
+**Idades**: 35 e 32 anos, respectivamente <br/>
+**Profissões**: Pedro é engenheiro civil e Ana é advogada <br/>
+**Estado Civil**: Casados <br/>
+**Filhos**: 2 filhos pequenos, de 4 e 2 anos <br/>
+**Localização**: Curitiba, Brasil <br/>
+
+**Descrição**: Pedro e Ana são um casal jovem com dois filhos pequenos. Eles trabalham em período integral e têm uma vida agitada, equilibrando trabalho, família e vida social. Pedro e Ana se preocupam com a saúde de seus filhos e querem garantir que eles estejam com as vacinas em dia. No entanto, o casal enfrenta dificuldades para encontrar tempo para levar as crianças aos postos de saúde, pois os horários de funcionamento dos postos coincidem com seus horários de trabalho.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| EU COMO... `PERSONA`           | QUERO/PRECISO ... `FUNCIONALIDADE`                                          | PARA ... `MOTIVO/VALOR`                                                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Pessoa Idosa                   | Receber informações sobre vacinas recomendadas para idosos                  | Me proteger de doenças específicas da minha faixa etária                                                                |
+| Pessoa Idosa                   | Agendar uma vacinação domiciliar                                            | Receber a vacina sem enfrentar dificuldades de locomoção                                                                |
+| Pessoa Idosa                   | Acessar meu histórico de vacinação                                          | Verificar quais vacinas já tomei e quais ainda preciso tomar                                                            |
+| Pessoa com Mobilidade Reduzida | Encontrar postos de vacinação com acessibilidade                            | Receber a vacina em um local adequado às minhas necessidades                                                            |
+| Pessoa com Mobilidade Reduzida | Agendar uma vacinação domiciliar                                            | Receber a vacina sem enfrentar dificuldades de deslocamento                                                             |
+| Pessoa com Mobilidade Reduzida | Acessar meu histórico de vacinação                                          | Verificar quais vacinas já tomei e quais ainda preciso tomar                                                            |
+| Pessoa Imunocomprometida       | Obter informações sobre vacinas apropriadas para pessoas imunocomprometidas | Me proteger de doenças enquanto estiver em tratamento                                                                   |
+| Pessoa Imunocomprometida       | Agendar uma vacinação domiciliar                                            | Receber a vacina sem me expor a riscos de infecção em locais públicos                                                   |
+| Pessoa Imunocomprometida       | Acessar meu histórico de vacinação                                          | Compartilhar as informações com minha equipe médica e seguir as recomendações de vacinação                              |
+| Pais com Pouco Tempo Livre     | Receber informações sobre o calendário de vacinação infantil                | Garantir que nossos filhos estejam protegidos contra doenças                                                            |
+| Pais com Pouco Tempo Livre     | Agendar vacinação domiciliar para nossos filhos                             | Gotimizar nosso tempo e facilitar a logística                                                                           |
+| Pais com Pouco Tempo Livre     | Acessar o histórico de vacinação de nossos filhos                           | Verificar se todas as vacinas estão atualizadas e saber quando é necessário levar as crianças para tomar a próxima dose |
 
 ## Requisitos
 
@@ -46,31 +81,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| O sistema deve fornecer informações detalhadas sobre vacinas, incluindo indicações, contraindicações, efeitos colaterais e recomendações de doses e intervalos | ALTA | TBD |
+|RF-002| O sistema deve permitir que os usuários filtrem as informações sobre vacinas com base em suas condições específicas (idosos, pessoas com mobilidade reduzida, imunocomprometidas, crianças). | MÉDIA | TBD |
+|RF-003| O sistema deve permitir que os usuários encontrem postos de vacinação próximos à sua localização. | BAIXA | TBD |
+|RF-004| O sistema deve exibir informações sobre acessibilidade e horários de funcionamento dos postos de vacinação. | MÉDIA | TBD |
+|RF-005| O sistema deve permitir que os usuários agendem vacinação domiciliar para si mesmos ou para membros da família. | ALTA | TBD |
+|RF-006| O sistema deve permitir que os usuários selecionem a vacina desejada e escolham uma data e horário disponíveis para a vacinação domiciliar. | ALTA | TBD |
+|RF-007| O sistema deve permitir que os usuários visualizem seu histórico de vacinação ou o histórico de vacinação de membros da família. | ALTA | TBD |
+|RF-008| O sistema deve exibir informações sobre as vacinas tomadas, datas de administração e datas previstas para as próximas doses. | MÉDIA | TBD |
+|RF-009| O sistema deve enviar notificações e lembretes aos usuários sobre datas de vacinação agendadas e próximas doses de vacinas. | BAIXA | TBD |
+|RF-010| O sistema deve permitir que os usuários criem e gerenciem perfis para si mesmos e membros da família, incluindo informações pessoais, condições de saúde e histórico de vacinação. | MÉDIA | TBD |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser capaz de lidar com um grande número de usuários simultâneos sem comprometer a qualidade do serviço. | BAIXA | 
+|RNF-002| O sistema deve proteger os dados pessoais e médicos dos usuários, garantindo a privacidade e a conformidade com as leis e regulamentações aplicáveis. |  ALTA |
+|RNF-003| O sistema deve ser fácil de usar e acessível para usuários com diferentes níveis de habilidade e conhecimento técnico. |  ALTA | 
 
 ## Restrições
 
@@ -79,11 +108,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|02| O sistema não será hospedado na internet, sendo executando apenas localmente |
