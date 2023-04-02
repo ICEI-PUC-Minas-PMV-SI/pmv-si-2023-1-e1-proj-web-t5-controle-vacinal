@@ -81,16 +81,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve fornecer informações detalhadas sobre vacinas, incluindo indicações, contraindicações, efeitos colaterais e recomendações de doses e intervalos | ALTA | TBD |
-|RF-002| O sistema deve permitir que os usuários filtrem as informações sobre vacinas com base em suas condições específicas (idosos, pessoas com mobilidade reduzida, imunocomprometidas, crianças). | MÉDIA | TBD |
-|RF-003| O sistema deve permitir que os usuários encontrem postos de vacinação próximos à sua localização. | BAIXA | TBD |
-|RF-004| O sistema deve exibir informações sobre acessibilidade e horários de funcionamento dos postos de vacinação. | MÉDIA | TBD |
-|RF-005| O sistema deve permitir que os usuários agendem vacinação domiciliar para si mesmos ou para membros da família. | ALTA | TBD |
-|RF-006| O sistema deve permitir que os usuários selecionem a vacina desejada e escolham uma data e horário disponíveis para a vacinação domiciliar. | ALTA | TBD |
-|RF-007| O sistema deve permitir que os usuários visualizem seu histórico de vacinação ou o histórico de vacinação de membros da família. | ALTA | TBD |
-|RF-008| O sistema deve exibir informações sobre as vacinas tomadas, datas de administração e datas previstas para as próximas doses. | MÉDIA | TBD |
-|RF-009| O sistema deve enviar notificações e lembretes aos usuários sobre datas de vacinação agendadas e próximas doses de vacinas. | BAIXA | TBD |
-|RF-010| O sistema deve permitir que os usuários criem e gerenciem perfis para si mesmos e membros da família, incluindo informações pessoais, condições de saúde e histórico de vacinação. | MÉDIA | TBD |
+|RF-001| O sistema deve fornecer informações detalhadas sobre vacinas, incluindo indicações, contraindicações, efeitos colaterais e recomendações de doses e intervalos | ALTA | Marcos |
+|RF-002| O sistema deve permitir que os usuários filtrem as informações sobre vacinas com base em suas condições específicas (idosos, pessoas com mobilidade reduzida, imunocomprometidas, crianças). | MÉDIA | Ravel |
+|RF-003| O sistema deve permitir que os usuários encontrem postos de vacinação próximos à sua localização. | BAIXA | Jack |
+|RF-004| O sistema deve exibir informações sobre acessibilidade e horários de funcionamento dos postos de vacinação. | MÉDIA | Lucas |
+|RF-005| O sistema deve permitir que os usuários agendem vacinação domiciliar para si mesmos ou para membros da família. | ALTA | Jack |
+|RF-006| O sistema deve permitir que os usuários selecionem a vacina desejada e escolham uma data e horário disponíveis para a vacinação domiciliar. | ALTA | Lucas |
+|RF-007| O sistema deve permitir que os usuários visualizem seu histórico de vacinação ou o histórico de vacinação de membros da família. | ALTA | Marcos |
+|RF-008| O sistema deve exibir informações sobre as vacinas tomadas, datas de administração e datas previstas para as próximas doses. | MÉDIA | Ravel |
+|RF-009| O sistema deve enviar notificações e lembretes aos usuários sobre datas de vacinação agendadas e próximas doses de vacinas. | BAIXA | Jack |
+|RF-010| O sistema deve permitir que os usuários criem e gerenciem perfis para si mesmos e membros da família, incluindo informações pessoais, condições de saúde e histórico de vacinação. | MÉDIA | Lucas |
 
 
 ### Requisitos não Funcionais
