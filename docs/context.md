@@ -1,54 +1,66 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+## Contextualização
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+A contextualização é fundamental para entender a importância do projeto em questão e situá-lo no mercado. Na área de saúde pública, a vacinação é uma das formas mais eficazes de prevenir doenças infecciosas e proteger a população. Desde o início da vacinação, muitas doenças que eram comuns na população foram erradicadas ou tiveram sua incidência drasticamente reduzida.
 
+No entanto, algumas doenças antes consideradas erradicadas estão se mostrando novamente um alerta. Há muitas pessoas que enfrentam dificuldades para se vacinar ou vacinar seus filhos. Isso pode ocorrer por falta de informação sobre as vacinas, falta de tempo ou dificuldades de acesso aos postos de saúde. A vacinação é um direito de todo cidadão, e é essencial que as informações sobre as vacinas estejam disponíveis e acessíveis para a população.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+Diante desse cenário, é importante destacar que a ferramenta que está sendo desenvolvida visa atender uma necessidade importante da população. Ao oferecer informações claras e precisas sobre as vacinas que as pessoas precisam e ao disponibilizar um serviço de vacinação domiciliar, o projeto visa contribuir para aumentar a taxa de vacinação e, consequentemente, melhorar a saúde pública.
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O problema que o projeto se propõe a resolver é a dificuldade que certos grupos encontram para ter acesso às vacinas. Esse problema pode ser causado por diversos fatores, como a falta de informação sobre as vacinas, falta de tempo para ir até um posto de saúde ou dificuldades de acesso aos serviços de saúde.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Esse problema é grave, pois a falta de vacinação pode levar a surtos de doenças e comprometer a saúde de toda a comunidade. Além disso, em contextos de pandemia, a vacinação é uma medida ainda mais importante para controlar a disseminação de doenças infecciosas.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Nesse sentido, a ferramenta que está sendo desenvolvida pode ser uma solução eficaz para esse problema, permitindo que as pessoas tenham acesso fácil e rápido às informações sobre as vacinas que seus filhos precisam e possam solicitar a aplicação das mesmas em suas próprias casas.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> **Links e referências**:
+> - [Maioria dos brasileiros não está com a vacinação em dia](https://veja.abril.com.br/saude/maioria-dos-brasileiros-nao-esta-com-a-vacinacao-em-dia/)
+> - [Desigualdade emperrou chegada da vacina contra a covid-19 em regiões mais pobres do Brasil](https://www.epsjv.fiocruz.br/podcast/desigualdade-emperrou-chegada-da-vacina-contra-a-covid-19-em-regioes-mais-pobres-do-brasil))
+> - [Queda nas taxas de vacinação no Brasil ameaça a saúde das crianças](https://butantan.gov.br/noticias/queda-nas-taxas-de-vacinacao-no-brasil-ameaca-a-saude-das-criancas)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal do projeto é fornecer uma solução para o problema da dificuldade de vacinação de pessoas com mobilidade reduzida, idosos, imunocomprometidos ou crianças cujos pais ou responsáveis não conseguem dispor tempo para vacinar seus filhos. Para isso, a ferramenta irá oferecer informações claras e precisas sobre as vacinas que as pessoas  precisam e disponibilizar um serviço de vacinação domiciliar.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Além disso, outros objetivos importantes incluem:
+
+- Contribuir para a prevenção de doenças infecciosas
+- Facilitar o acesso à informação sobre vacinação
+- Oferecer um serviço de qualidade e seguro para a aplicação de vacinas
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação de uma ferramenta de vacinação domiciliar é justificada pela necessidade de suprir uma demanda importante da população que não está sendo adequadamente atendida. Muitas pessoas ainda enfrentam obstáculos para se vacinar, como falta de informação e dificuldades de acesso aos postos de saúde. Ao fornecer informações precisas e um serviço de vacinação em casa, essa ferramenta pode ser fundamental para aumentar a taxa de vacinação e prevenir surtos de doenças infecciosas, além de incentivar mais pessoas a se vacinarem e contribuir para a promoção da saúde pública.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Outra justificativa importante é que cada dólar investido em vacinação pode gerar um retorno significativo em ganhos de produtividade e redução de custos de tratamento de doenças evitáveis1. A vacinação não só previne doenças e salva vidas, mas também reduz a carga de doenças e mortalidade, permitindo que as pessoas trabalhem e produzam mais, e reduzindo o tempo e o custo de tratamento de doenças. Além disso, a vacinação é mais econômica a longo prazo, pois a prevenção é mais eficaz do que o tratamento de doenças.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Portanto, a implementação dessa ferramenta não só atende a uma necessidade importante da população, mas também tem um impacto positivo na saúde pública e na redução dos custos do sistema de saúde. É evidente que a criação dessa ferramenta é crucial para a sociedade e para a melhoria da qualidade de vida das pessoas, especialmente em um momento em que a vacinação se tornou ainda mais urgente em face da pandemia de COVID-19.
+
+> **Links e referências**:
+> - [Return On Investment From Childhood Immunization In Low And Middle-Income Countries](https://www.academia.edu/94930830/Return_On_Investment_From_Childhood_Immunization_In_Low_And_Middle_Income_Countries_2011_20)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo da ferramenta são pessoas com mobilidade reduzida, idosos, imunocomprometidos e pais ou responsáveis por crianças que não conseguem dispor de tempo para vacinar seus filhos. Esses grupos são vulneráveis ​​às doenças infecciosas e muitas vezes enfrentam dificuldades em receber a vacinação adequada. A ferramenta fornecerá informações claras e precisas sobre as vacinas necessárias e oferecerá um serviço de vacinação domiciliar para atender às necessidades desses grupos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Diagrama de personas:
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Pessoa idosa: Maria, 70 anos, vive sozinha e tem dificuldades para se locomover até o posto de saúde.
+- Pessoa com mobilidade reduzida: João, 45 anos, tem deficiência física e usa cadeira de rodas, o que torna difícil para ele se deslocar até o posto de saúde.
+- Pessoa imunocomprometida: Luana, 30 anos, foi diagnosticada com câncer e precisa de cuidados especiais para evitar infecções.
+- Pais com pouco tempo livre: Pedro e Ana, pais de duas crianças pequenas, trabalham em período integral e têm dificuldades em encontrar tempo para levar seus filhos ao posto de saúde para vacinação.
+
+Mapa de stakeholders:
+
+- Pessoas com mobilidade reduzida
+- Idosos
+- Pessoas imunocomprometidas
+- Pais ou responsáveis por crianças
+- Profissionais de saúde
+- Instituições de saúde pública
+- Governo
+- Empresas farmacêuticas e de tecnologia envolvidas na produção e distribuição de vacinas.
