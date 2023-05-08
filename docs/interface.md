@@ -7,32 +7,36 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+![Vacinow UserFlow](img/vacinow-userflow.png)
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+### Inicio
 
-### Exemplo
+A Tela Inicial apresenta uma barra de navegação com as principais seções do portal. A área central apresenta um banner com informações a respeito da última campanha de vacinação.
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
+![Pagina Inicial](img/vacinow-home.png)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+### Login
 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+A tela de login apresenta um formulário simples com dois campos: CPF e Senha, os quais serão usados para autenticar o usuário.
+
+![Login](img/vacinow-login.png)
+
+### Registrar
+
+A tela de registro é simples e objetiva. Nela, o usuário irá informar o seu CPF, nome, e-mail e senha.
+
+![Registrar](img/vacinow-registrar.png)
+
+### Minhas Vacinas
+
+Nessa tela, o usuário verá uma tabela contendo as vacinas que foram solicitadas em sua conta. Por exemplo, caso o usuário solicite uma vacina para seu filho, ela será listada juntamente com as vacinas do titular. Nessa tela, também é possível solicitar um novo agendamento.
+
+![Minhas Vacinas](img/vacinow-minhas-vacinas.png)
+
+### Nova Solicitação
+
+Nessa tela, o usuário irá inserir os dados referentes à pessoa que será vacinada. Ele também poderá optar por ir ao posto de saúde em um horário específico ou receber atendimento em casa.
+
+![Nova Solicitacao](img/vacinow-nova-solicitacao.png)
