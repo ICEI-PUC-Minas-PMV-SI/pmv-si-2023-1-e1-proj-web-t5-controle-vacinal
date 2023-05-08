@@ -1,12 +1,18 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+O template padrão do site se encontra no arquivo [Template](../src/template.html).
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Os layouts seguirão o padrão definido nos wireframes, exemplo:
+
+![Pagina Inicial](img/vacinow-home.png)
+
+Como pode-se notar, todas a páginas terão uma navigation bar contendo os principais links dos serviços oferecidos, como consultar os agendamentos/vacinas, e fazer um agendamento de vacinação.
+
+As páginas seguirão a seguinte estrutura:
+
+![Layout](img/vacinow-layout.png)
 
 
 ## Cores
