@@ -17,6 +17,13 @@ A Tela Inicial apresenta uma barra de navegação com as principais seções do 
 
 ![Pagina Inicial](img/vacinow-home.png)
 
+### Informações
+
+A tela de informações exibe as campanhas vacinais vigentes separadas por grupos de faixa etária e gestante. Exibe com mais detalhes os perfis aos quais as campanhas se propõe a atender e, caso sejam campanhas com datas definidas de início e fim, também as exibe.
+
+![Informações](img/vacinow-home-informacoes-1.png)
+![Informações](img/vacinow-home-informacoes-2.png)
+
 ### Login
 
 A tela de login apresenta um formulário simples com dois campos: CPF e Senha, os quais serão usados para autenticar o usuário.
