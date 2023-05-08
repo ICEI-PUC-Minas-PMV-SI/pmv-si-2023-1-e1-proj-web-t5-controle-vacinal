@@ -11,15 +11,21 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+A paleta de cores azul e branca foi escolhida para o site de vacinas por transmitir uma sensação de calma, confiança e limpeza. O azul é uma cor associada à saúde e ao bem-estar, enquanto o branco transmite simplicidade. Juntas, essas cores criam um ambiente acolhedor e tranquilizador para os visitantes do site, que buscam informações sobre vacinas e saúde.
 
+![Paleta](img/paleta-cores.png)
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+Como fonte vamos utilizar [The Inter typeface family](https://rsms.me/inter/).
 
+As escolhas de fontes em um site são importantes para garantir uma boa legibilidade e hierarquia visual. No caso deste site, o título da página foi escolhido em negrito (bold) para chamar a atenção e destacar o conteúdo principal. Os títulos de seção foram escolhidos em semi-negrito (semi-bold) para diferenciá-los do título da página e do corpo do texto, mas ainda assim destacá-los. Os rótulos de componentes foram escolhidos em fonte leve (light) para não competir com os títulos e o corpo do texto. Por fim, o corpo do texto foi escolhido em fonte regular para garantir uma boa legibilidade e conforto na leitura.
+
+![Tipografia](img/tipografia.png)
 
 ## Iconografia
+
+Os ícones utilizados serão coletados no repositório [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons).
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
