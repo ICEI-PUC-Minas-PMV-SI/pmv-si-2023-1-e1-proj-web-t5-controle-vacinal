@@ -10,11 +10,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Ravel dos Santos Nogueira
 * Jack Medeiros de Paula Pereira Demori
 * Lucas Vinícius Rocha Gomes
 * Marcos Paulo de Oliveira
-* Nome completo do aluno 5
 
 ## Orientador
 
