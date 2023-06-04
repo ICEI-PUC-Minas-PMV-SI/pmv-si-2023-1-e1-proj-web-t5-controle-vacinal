@@ -6,18 +6,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
-
-## Descrição das estruturas:
-
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+| ID     | Descrição do Requisito                                                                                                                                                             | Prioridade | Artefato Criado |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| RF-005 | O sistema deve permitir que os usuários visualizem seu histórico de vacinação ou o histórico de vacinação de membros da família.                                                   | ALTA       | dashboard.html  |
+| RF-009 | O sistema deve permitir que os usuários criem e gerenciem perfis para si mesmos e membros da família, incluindo informações pessoais, condições de saúde e histórico de vacinação. | MÉDIA      | dashboard.html  |
+| RF-010 | O sistema deve permitir que os usuários façam login no sistema com suas credenciais.                                                                                               | MÉDIA      | cadastro.html   |
