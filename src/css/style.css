@@ -3,6 +3,7 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   height: 100%;
+  overflow: scroll;
 }
 
 .layout_padding {

@@ -30,7 +30,7 @@
   <script type="text/javascript" src="js/identity.js"></script>
 </head>
 
-<body onload="loadUserName()">
+<body onload="loadUserNameAndRelatives()">
   <div class="header">
     <a href="dashboard.html" class="logo">VACINOW</a>
     <div class="header-right">
@@ -45,27 +45,27 @@
       <div class="form_container">
         <div class="heading_container">
           <img src="images/heading-img.png" alt="" />
-          <h2 class="tittle">DE QUEM VOCÊ IRÁ CUIDAR?</h2>
+          <h2 class="tittle">QUEM IRÁ RECEBER A VACINA?</h2>
           <br />
         </div>
-        <form onsubmit="addRelative(event)">
+        <form onsubmit="addVaccine(event)">
           <div>
-            <input type="cpf" name="cpf" placeholder="CPF" />
+            <select class="form-control" id="userSelect">
+            </select>
+          </div>
+          <br />
+          <div>
+            <input type="text" name="vaccine" placeholder="VACINA DESEJADA" />
           </div>
           <div>
-            <input type="name" name="name" placeholder="NOME COMPLETO" />
+            <input type="text" name="where" placeholder="ONDE" />
           </div>
           <div>
-            <input type="sexo" name="sex" placeholder="SEXO" />
+            <input type="text" name="when" placeholder="QUANDO" />
           </div>
-
-          <div>
-            <input type="parentesco" name="degree" placeholder="GRAU DE PARENTESCO" />
-          </div>
-
           <div class="d-flex">
             <button type="submit">
-              ADICIONAR
+              SOLICITAR
             </button>
           </div>
         </form>
