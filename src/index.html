@@ -1,215 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Basico -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Responsive -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Opções do site-->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
 
-    <title>VACINOW</title>
+<head>
+  <!-- Basico -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Opções do site-->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <title>VACINOW</title>
 
-    <!-- fonts style -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet" />
-  </head>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <body>
-    <div class="hero_area">
-      <!--seção cabeçalho -->
-      <header class="header_section">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container">
-            <h5 class="Logo">VACINOW</h5>
-          </nav>
-        </div>
-      </header>
-      <!-- end header section -->
-      <!-- slider section -->
-      <section class="slider_section">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-5 offset-md-1">
-                    <div class="detail-box">
-                      <h1>
-                        VACINOW <br />
-                        <span> A sua saúde na palma da mão. </span>
-                      </h1>
-                      <p>
-                        Tenha o controle da suas vacinas e dos seus famíliares
-                        com facilidade e eficiência.
-                      </p>
-                      <div class="btn-box">
-                        <a href="login.html" class="btn-1"> Login </a>
-                        <a href="cadastro.html" class="btn-2"> Cadastre-se </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-box">
-                      <img src="images/familia.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Fim do card inic -->
-    </div>
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 
-    <!-- Seção sobre nós-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
 
-    <section class="about_section layout_padding">
-      <div class="container">
-        <div class="detail-box">
-          <div class="heading_container">
-            <img src="images/Injecao.png" alt="Injeção" />
-            <h2>Sobre nós</h2>
-          </div>
-          <p>
-            Temos como objetivo melhorar a saúde do cidadão brasileiro, que
-            muitas vezes não obtém a informação de vacinas da maneira correta,
-            com nosso site, queremos trazer para você uma solução eficiente de
-            gestão de vacinas, onde você consegue olhar suas vacinas e dos seus
-            famíliares usando apenas o Cadastro da pessoa física. Bem rápido e
-            eficiente.
-          </p>
-        </div>
-      </div>
-    </section>
+  <script type="text/javascript" src="js/homepage.js"></script>
+</head>
 
-    <!-- end about section -->
-
-    <!-- Seção Contato -->
-
-    <section class="contact_section layout_padding-top">
+<body>
+  <div class="hero_area">
+    <!--seção cabeçalho -->
+    <header class="header_section">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-5 offset-md-1">
-            <div class="form_container">
-              <div class="heading_container">
-                <img src="images/heading-img.png" alt="" />
-                <h2>Deixe sua sugestão e não perca tempo!</h2>
-                <br />
-                <p>
-                  Ao lado tem o mapa para que você possa achar uma UBS mais
-                  próxima de sua residência para que possa se vacinar o mais
-                  rápido o possível.
-                </p>
-              </div>
-              <form action="">
-                <div>
-                  <input type="text" placeholder="Nome Completo" />
-                </div>
-                <div>
-                  <input type="text" placeholder="Número de Telefone" />
-                </div>
-                <div>
-                  <input type="email" placeholder="Email" />
-                </div>
-                <div>
-                  <input type="message" placeholder="Sugestão" />
-                </div>
-                <div class="d-flex">
-                  <button type="submit">ENVIAR</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-md-6 px-0">
-            <div class="map_container">
-              <div class="map-responsive">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15003.414999713055!2d-44.02751094620187!3d-19.930566907360603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1subs%20mais%20perta!5e0!3m2!1spt-BR!2sbr!4v1685804051145!5m2!1spt-BR!2sbr"
-                  width="600"
-                  height="100%"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <h5 class="Logo">VACINOW</h5>
+        </nav>
       </div>
-    </section>
-
-    <!-- fim da seção contato -->
-
-    <!-- seção info -->
-    <section class="info_section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="info_contact">
-              <h5>Contato:</h5>
-              <div>
-                <img src="images/mail.png" alt="" />
-                <p>vacinow@sga.pucminas.br</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="info_time">
-              <h5>Atendimento as dúvidas e sugestões</h5>
-              <div>
-                <p>Segunda à sexta</p>
-              </div>
-              <div>
-                <p>07:00 às 18:30</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="info_social">
-              <h5>Mídias sociais</h5>
-              <div class="social_container">
-                <div>
-                  <a href="">
-                    <img src="images/fb.png" alt="" />
-                  </a>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <h1>
+                      VACINOW <br />
+                      <span> A sua saúde na palma da mão. </span>
+                    </h1>
+                    <p>
+                      Tenha o controle da suas vacinas e dos seus famíliares
+                      com facilidade e eficiência.
+                    </p>
+                    <div class="btn-box">
+                      <a href="login.html" class="btn-1"> Login </a>
+                      <a href="cadastro.html" class="btn-2"> Cadastre-se </a>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <a href="">
-                    <img src="images/twitter.png" alt="" />
-                  </a>
-                </div>
-                <div>
-                  <a href="">
-                    <img src="images/linkedin.png" alt="" />
-                  </a>
-                </div>
-                <div>
-                  <a href="">
-                    <img src="images/instagram.png" alt="" />
-                  </a>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/familia.png" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,27 +75,165 @@
         </div>
       </div>
     </section>
+    <!-- Fim do card inic -->
+  </div>
 
-    <!-- fim da seção info -->
+  <!-- Seção sobre nós-->
 
-    <!-- Rodapé -->
-    <section class="container-fluid footer_section">
-      <p>
-        &copy; 2023 Todo os direitos reservados. Design feito por: Equipe
-        VACINOW.
-      </p>
-    </section>
-    <!-- fim do rodapé-->
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="detail-box">
+        <div class="heading_container">
+          <img src="images/Injecao.png" alt="Injeção" />
+          <h2>Sobre nós</h2>
+        </div>
+        <p>
+          Temos como objetivo melhorar a saúde do cidadão brasileiro, que
+          muitas vezes não obtém a informação de vacinas da maneira correta,
+          com nosso site, queremos trazer para você uma solução eficiente de
+          gestão de vacinas, onde você consegue olhar suas vacinas e dos seus
+          famíliares usando apenas o Cadastro da pessoa física. Bem rápido e
+          eficiente.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script>
-      function openNav() {
-        document.getElementById("myNav").classList.toggle("menu_width");
-        document
-          .querySelector(".custom_menu-btn")
-          .classList.toggle("menu_btn-style");
-      }
-    </script>
-  </body>
+  <!-- end about section -->
+
+  <!-- Seção Contato -->
+
+  <section class="contact_section layout_padding-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="form_container">
+            <div class="heading_container">
+              <img src="images/heading-img.png" alt="" />
+              <h2>Deixe sua sugestão e não perca tempo!</h2>
+              <br />
+            </div>
+            <form onsubmit="handleSugestion(event)">
+              <div>
+                <input type="text" name="name" placeholder="Nome Completo" />
+              </div>
+              <div>
+                <input type="text" name="phoneNumber" placeholder="Número de Telefone" />
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="message" name="message" placeholder="Sugestão" />
+              </div>
+              <div class="d-flex">
+                <button type="submit">ENVIAR</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="map_container">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- fim da seção contato -->
+
+  <!-- seção info -->
+  <section class="info_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_contact">
+            <h5>Contato:</h5>
+            <div>
+              <img src="images/mail.png" alt="" />
+              <p>vacinow@sga.pucminas.br</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_time">
+            <h5>Atendimento as dúvidas e sugestões</h5>
+            <div>
+              <p>Segunda à sexta</p>
+            </div>
+            <div>
+              <p>07:00 às 18:30</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="info_social">
+            <h5>Mídias sociais</h5>
+            <div class="social_container">
+              <div>
+                <a href="">
+                  <img src="images/fb.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/twitter.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- fim da seção info -->
+
+  <!-- Rodapé -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2023 Todo os direitos reservados. Design feito por: Equipe
+      VACINOW.
+    </p>
+  </section>
+  <!-- fim do rodapé-->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    function openNav() {
+      cument.getElementById("myNav").classList.toggle("menu_width");
+      cument
+      uerySelector(".custom_menu-btn")
+      lassList.toggle("menu_btn-style");
+    }
+  </script>
+
+  <script>
+    function handleSugestion(event) => {
+      event.preventDefault();
+
+      const name = event.target.elements.name.value;
+      Swal.fire(
+        'Sugestão enviada!',
+        `Obrigado pela sugestão ${name}`,
+        'success'
+      )
+    }
+
+  </script>
+</body>
+
 </html>
