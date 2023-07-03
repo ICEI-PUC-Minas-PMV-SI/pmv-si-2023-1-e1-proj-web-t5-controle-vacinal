@@ -25,40 +25,68 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Realizar cadastro do usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Procedimento**  | 1) No cadastro o usuário informa nome completo, cpf, sexo, email e senha.<br>2) A aplicação verifica se os campos de nome, cpf, sexo e senhas então preenchidos e se o email é válido e informa ao usuário caso não seja.
+**Requisitos associados** | RF-010
+**Resultado esperado** | Prosseguir para a aplicação já logado.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Realizar login do usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário informa e senha cadastrados previamente e clica em logar.<br>2) A aplicação verifica se os dados informados correspondem a algum cadastro realizado previamente e informa ao usuário caso contrário.
+**Requisitos associados** | RF-010
+**Resultado esperado** | Prosseguir para a aplicação já logado.
+**Dados de entrada** | Email e senha cadastrados previamente.
 **Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Realizar cadastro de dependentes**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa os dados de cpf, nome completo, sexo e grau de parentesco do(a) dependente.<br>2) A aplicação verifica se todos os campos estão preenchidos e retorna uma mensagem de erro caso não estejam.
+**Requisitos associados** | RF-009
+**Resultado esperado** | Exibe a lista de dependentes com o novo dpendente cadastrado.
+**Dados de entrada** | Cpf, nome completo, sexo e grau de parentesco do(a) dependente.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Solicitar vacina**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa para quem será a solicitação de vacina, podendo ser para ele mesmo ou algum dependente cadastrado previamente.<br>2) A aplicação verifica se todos os campos estão preenchidos e retorna uma mensagem de erro caso não estejam.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Exibe a lista de familiares e solicitações de vacina atualizada com a nova vacina solicitada.
+**Dados de entrada** | Pessoa a ser vacinada, vacina desejada, local, data.
+**Resultado obtido** | Sucesso.
+
 
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Realizar cadastro do usuário*                                         |
 |---|---|
-|Requisito Associado | RF-001 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-010 - O sistema deve permitir que os usuários façam login no sistema com suas credenciais.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AgYEC5xOUaZIhEJSzcDHwXSuR8pY?e=hJLghf | 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*Ct-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-010 - O sistema deve permitir que os usuários façam login no sistema com suas credenciais.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AgYEC5xOUaZIhERs50p3XiREuEB3?e=mGYVpx | 
+
+|*Caso de Teste*                                 |*Ct-03 - Realizar cadastro de dependentes*                                         |
+|---|---|
+|Requisito Associado | RF-009 - O sistema deve permitir que os usuários criem e gerenciem perfis para si mesmos e membros da família, incluindo informações pessoais, condições de saúde e histórico de vacinação.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AgYEC5xOUaZIhEO-edjSkzL5RKt8?e=jD7uOc | 
+
+|*Caso de Teste*                                 |*Ct-04 - Realizar solicitação de vacina*                                         |
+|---|---|
+|Requisito Associado | RF-003 - O sistema deve permitir que os usuários agendem vacinação domiciliar para si mesmos ou para membros da família.|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AgYEC5xOUaZIhEW5uj0_R5sjCcqA?e=dALkki | 
+
 
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Identificamos em nossos testes que poderíamos aprimorar a forma de entrada dos dados, colocando máscaras em dados de formato padrão e calendários para as datas.
 
 
 
