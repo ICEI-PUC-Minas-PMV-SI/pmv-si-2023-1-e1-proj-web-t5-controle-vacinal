@@ -8,8 +8,10 @@ authors:
     given-names: Lucas
   - family-names: de Oliveira
     given-names: Marcos Paulo
-  - name-suffix: Professor Luciana De Nardin
+  - name-suffix: Professora
     affiliation: PUC Minas
+    family-names: De Nardin
+    given-names: Luciana
 keywords:
   - Saúde Pública
   - Vacinação
