@@ -1,29 +1,21 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Vacinow
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Medeiros de Paula Pereira Demori
+    given-names: Jack
+  - family-names: Vinícius Rocha Gomes
+    given-names: Lucas
+  - family-names: de Oliveira
+    given-names: Marcos Paulo
+  - name-suffix: Professor Luciana De Nardin
     affiliation: PUC Minas
-    family-names:
-    given-names:
 keywords:
-  -
-  -
-repository-code:
+  - Saúde Pública
+  - Vacinação
+  - Prevenção de doenças
+  - Acessibilidade
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-controle-vacinal/tree/main
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
